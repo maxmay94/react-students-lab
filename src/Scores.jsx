@@ -3,8 +3,9 @@ import Students from "./Students";
 const Scores = (props) => {
   return ( 
     <div>
-      <p>SCORES</p>
-      <p>{props.scores}</p>
+      <p>Date: {props.score.date}</p>
+      <p>Score: {props.score.score}</p>
+      <br />
     </div>
    );
 }
